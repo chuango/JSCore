@@ -14,6 +14,8 @@
 		567D03131BC941EB00CC0ACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567D03121BC941EB00CC0ACE /* Images.xcassets */; };
 		567D03161BC941EB00CC0ACE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 567D03141BC941EB00CC0ACE /* LaunchScreen.xib */; };
 		567D03221BC941EB00CC0ACE /* JSCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 567D03211BC941EB00CC0ACE /* JSCoreTests.m */; };
+		567D032F1BC95EA000CC0ACE /* pinggu.html in Resources */ = {isa = PBXBuildFile; fileRef = 567D032E1BC95EA000CC0ACE /* pinggu.html */; };
+		567D03321BC960B600CC0ACE /* JSOCInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 567D03311BC960B600CC0ACE /* JSOCInterface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		567D031B1BC941EB00CC0ACE /* JSCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		567D03201BC941EB00CC0ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		567D03211BC941EB00CC0ACE /* JSCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCoreTests.m; sourceTree = "<group>"; };
+		567D032E1BC95EA000CC0ACE /* pinggu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pinggu.html; sourceTree = "<group>"; };
+		567D03301BC960B600CC0ACE /* JSOCInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSOCInterface.h; sourceTree = "<group>"; };
+		567D03311BC960B600CC0ACE /* JSOCInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSOCInterface.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 			children = (
 				567D03091BC941EB00CC0ACE /* AppDelegate.h */,
 				567D030A1BC941EB00CC0ACE /* AppDelegate.m */,
+				567D032E1BC95EA000CC0ACE /* pinggu.html */,
+				567D03301BC960B600CC0ACE /* JSOCInterface.h */,
+				567D03311BC960B600CC0ACE /* JSOCInterface.m */,
 				567D030C1BC941EB00CC0ACE /* ViewController.h */,
 				567D030D1BC941EB00CC0ACE /* ViewController.m */,
 				567D030F1BC941EB00CC0ACE /* Main.storyboard */,
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				567D03111BC941EB00CC0ACE /* Main.storyboard in Resources */,
+				567D032F1BC95EA000CC0ACE /* pinggu.html in Resources */,
 				567D03161BC941EB00CC0ACE /* LaunchScreen.xib in Resources */,
 				567D03131BC941EB00CC0ACE /* Images.xcassets in Resources */,
 			);
@@ -221,6 +230,7 @@
 			files = (
 				567D030E1BC941EB00CC0ACE /* ViewController.m in Sources */,
 				567D030B1BC941EB00CC0ACE /* AppDelegate.m in Sources */,
+				567D03321BC960B600CC0ACE /* JSOCInterface.m in Sources */,
 				567D03081BC941EB00CC0ACE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
